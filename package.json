@@ -1,5 +1,5 @@
 {
-  "name": "supabase-server",
+  "name": "@iflow-mcp/supabase-mcp",
   "version": "0.1.0",
   "type": "module",
   "scripts": {
@@ -18,5 +18,11 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^20.11.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "supabase-mcp": "./build/index.js"
   }
 }
